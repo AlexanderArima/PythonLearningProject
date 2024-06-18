@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7cbb8c0a-01ca-4530-bbc6-1d5d150876a6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>NumberDemo.py</StartupFile>
+    <StartupFile>Chapter3\Practice2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,24 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="name_cases.py" />
-    <Compile Include="NumberDemo.py" />
-    <Compile Include="PythonApplication1.py" />
-    <Compile Include="StringDemo.py" />
+    <Compile Include="Chapter3\ListDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter2\name_cases.py" />
+    <Compile Include="Chapter2\NumberDemo.py" />
+    <Compile Include="Chapter1\PythonApplication1.py" />
+    <Compile Include="Chapter2\StringDemo.py" />
+    <Compile Include="Chapter3\Practice1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter3\Practice2.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Chapter3\" />
+    <Folder Include="Chapter2\" />
+    <Folder Include="Chapter1\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
