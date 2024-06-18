@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7cbb8c0a-01ca-4530-bbc6-1d5d150876a6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Chapter3\Practice2.py</StartupFile>
+    <StartupFile>Chapter4\OperateListDemo.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,10 +28,19 @@
     <Compile Include="Chapter2\NumberDemo.py" />
     <Compile Include="Chapter1\PythonApplication1.py" />
     <Compile Include="Chapter2\StringDemo.py" />
+    <Compile Include="Chapter3\ListSortDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Chapter3\Practice1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Chapter3\Practice2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter3\Practice3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter4\OperateListDemo.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -39,6 +48,7 @@
     <Folder Include="Chapter3\" />
     <Folder Include="Chapter2\" />
     <Folder Include="Chapter1\" />
+    <Folder Include="Chapter4\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
