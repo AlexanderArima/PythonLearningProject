@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7cbb8c0a-01ca-4530-bbc6-1d5d150876a6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Chapter4\Practice2.py</StartupFile>
+    <StartupFile>Chapter5\ifDemo.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -47,12 +47,22 @@
     <Compile Include="Chapter4\Practice2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Chapter4\SlicingDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter4\TupleDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter5\ifDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Chapter3\" />
     <Folder Include="Chapter2\" />
     <Folder Include="Chapter1\" />
     <Folder Include="Chapter4\" />
+    <Folder Include="Chapter5\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
