@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7cbb8c0a-01ca-4530-bbc6-1d5d150876a6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Chapter5\ifDemo.py</StartupFile>
+    <StartupFile>Chapter5\Practice2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -54,6 +54,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Chapter5\ifDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter5\Practice1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter5\Practice2.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
